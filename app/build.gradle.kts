@@ -3,7 +3,10 @@ plugins {
     id("org.jetbrains.kotlin.android")
 }
 
-android {
+android {compileOptions {
+    sourceCompatibility = JavaVersion.VERSION_21
+    targetCompatibility = JavaVersion.VERSION_21
+}
     namespace = "com.rana.love"
     compileSdk = 35
 
