@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="22dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="رنا ❤️"
+            android:textColor="@color/text"
+            android:textSize="34sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:text="منذ 5 مارس 2026 بدأت أجمل حكاية"
+            android:textColor="@color/muted"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/countdown"
+            android:text="عيد الميلاد 🎂 — التاريخ يحدد من الإعدادات لاحقًا"
+            android:textColor="@color/pink"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginTop="18dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Button android:id="@+id/memories" android:text="💕 ذكرياتنا" style="@style/MainButton"/>
+        <Button android:id="@+id/photos" android:text="📸 صورنا" style="@style/MainButton"/>
+        <Button android:id="@+id/poems" android:text="✍️ شعر لرنا" style="@style/MainButton"/>
+        <Button android:id="@+id/chat" android:text="💬 محادثتنا" style="@style/MainButton"/>
+        <Button android:id="@+id/music" android:text="🎵 أغانينا — بينا ميعاد" style="@style/MainButton"/>
+
+        <TextView
+            android:text="كل قسم مصمم ليكبر مع ذكرياتكم ❤️"
+            android:textColor="@color/muted"
+            android:textSize="14sp"
+            android:gravity="center"
+            android:layout_marginTop="24dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+</ScrollView>
