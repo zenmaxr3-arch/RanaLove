@@ -1,1 +1,5 @@
-<resources><color name="transparent">#00000000</color></resources>
+<resources>
+    <color name="transparent">#00000000</color>
+    <color name="text">#FFFFFFFF</color>
+    <color name="card">#FF1E1E1E</color>
+</resources>
