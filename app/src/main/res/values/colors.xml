@@ -2,4 +2,7 @@
     <color name="transparent">#00000000</color>
     <color name="text">#FFFFFFFF</color>
     <color name="card">#FF1E1E1E</color>
+    <color name="bg">#FF110B18</color>
+    <color name="muted">#FFB8AFC2</color>
+    <color name="pink">#FFFF6FAE</color>
 </resources>
